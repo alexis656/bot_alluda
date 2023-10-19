@@ -14,7 +14,7 @@ async def on_ready():
 
 @bot.command()
 async def hola(ctx):
-    await ctx.send(f'Hola, soy un bot que te informara sobre el tema del cuidado del medio ambiente y como esta afectando la contaminacion al mundo {bot.user}!')
+    await ctx.send(f'Hola, soy un bot que te informara sobre el tema del cuidado del medio ambiente y como esta afectando la contaminacion al mundo te dejare los comandos que puedes utilisar (informame como_ayudo tips memeresi) {bot.user}!')
 
 @bot.command()
 async def informame(ctx):
